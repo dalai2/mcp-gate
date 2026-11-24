@@ -2,13 +2,13 @@
   "algorithm": "sha256",
   "files": {
     "LICENSE": "1e7d2b42542eaac49bcdb327d0470b67a440507c9962f74dde2aa22972a6f5ef",
-    "README.md": "0dd3d256b491d8c9d78f60a7cbb7fa4df0a1b648d8bf0ed1369842fc5fc1baf6",
+    "README.md": "da60c1e9a4baeda7f931a93dcd780de887800a5ed56c3470c4fb93f5c4fa4ab2",
     "lib/pack.mjs": "7537d0c4bc050cd214babe672311dd7db4743992993064883dbd1c8f0f7d62a2",
     "lib/protocol.mjs": "39bdea5db98aa68471e60223503957968ca88fa2ec566439b25407ef3abd8632",
     "lib/rules.mjs": "c51b12f79bf5d4b94df4ba04d44f467131aee07e80781011f98218ceebbde935",
     "lib/verify.mjs": "7a034d0031c091d5f0b1574a65943805cfc983b4131646f3c9f270871abc7670",
-    "package.json": "a91dd980a21321a44130b44c1b9372c923ba856ef6e2d7c97490c5996f4b2420",
-    "server.json": "db5d25517ee793aab32c9238e9a8295c5bad0a9f0e6923cabb3a5fc80dabb1d6",
-    "server.mjs": "fd2b3e12bc6687c0575b4a7fd903491e7b4c88548f29ea248b07144db1df674a"
+    "package.json": "af3f3e5cce4f4f9086b20c7ff7150ff91882b8b1ce02b55a2f3597db53a92908",
+    "server.json": "700042808925058755347bfe4a023f0b9a78d821b9ad50b47bba39250572e991",
+    "server.mjs": "c0e21816a933a0ea6a01f01c45d168a5f8144fb5e797e38dd1dcf09633f54246"
   }
 }

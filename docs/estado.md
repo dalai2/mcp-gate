@@ -1,6 +1,6 @@
 # mcp-gate
 
-2026-11-24. Primera versión. Repo público `dalai2/mcp-gate`. npm no se publicó: el token guardado en `.npmrc` responde 401. El registry de MCP queda para después.
+2026-11-24. Repo público `dalai2/mcp-gate`. El nombre npm `mcp-gate` lo rechazó el registry (403, demasiado parecido a `mcpgate`). Se publica como `@dalainarwhal/mcp-gate`. El registry de MCP queda para después.
 
 Probado contra una copia de `gumroad-mcp`: el pack se niega solo porque la description mide 121 caracteres (el límite del registry es 100).
 

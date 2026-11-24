@@ -25,12 +25,12 @@ Out of scope, because each one needs a tool call and a judgment of the transcrip
 ## Use
 
 ```powershell
-node server.mjs pack C:\path\to\server
-node server.mjs verify C:\path\to\server
+npx -y @dalainarwhal/mcp-gate pack C:\path\to\server
+npx -y @dalainarwhal/mcp-gate verify C:\path\to\server
 node server.mjs --selftest
 ```
 
-On Windows, a client that installs the packed server has to launch it with `cmd /c npx`, not `npx` alone. This packager does not write `runtimeHint: npx`.
+On Windows, launch it with `cmd /c npx`, not `npx` alone. This packager does not write `runtimeHint: npx`.
 
 MCP server, for an agent:
 

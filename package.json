@@ -1,5 +1,5 @@
 {
-  "name": "mcp-gate",
+  "name": "@dalainarwhal/mcp-gate",
   "version": "1.0.0",
   "description": "Packs and statically verifies a local npm MCP server.",
   "mcpName": "io.github.dalai2/mcp-gate",

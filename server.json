@@ -7,7 +7,7 @@
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
-      "identifier": "mcp-gate",
+      "identifier": "@dalainarwhal/mcp-gate",
       "version": "1.0.0",
       "transport": {
         "type": "stdio"

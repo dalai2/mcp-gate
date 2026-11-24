@@ -18,7 +18,7 @@ import { pack } from "./lib/pack.mjs";
 import { fails } from "./lib/rules.mjs";
 import { verify } from "./lib/verify.mjs";
 
-const SERVER = { name: "mcp-gate", version: "1.0.0" };
+const SERVER = { name: "@dalainarwhal/mcp-gate", version: "1.0.0" };
 const log = (...parts) => process.stderr.write(parts.join(" ") + "\n");
 const out = (msg) => process.stdout.write(JSON.stringify(msg) + "\n");
 
@@ -121,7 +121,7 @@ async function selftest() {
   process.stdout.write = original;
   const messages = captured.filter((line) => line.trim()).map((line) => JSON.parse(line));
   const listed = messages[1].result.tools.map((tool) => tool.name);
-  if (messages[0].result.serverInfo.name !== "mcp-gate" || listed.length !== 2) {
+  if (messages[0].result.serverInfo.name !== SERVER.name || listed.length !== 2) {
     problems.push("handshake did not list pack_server and verify_server");
   }
 
